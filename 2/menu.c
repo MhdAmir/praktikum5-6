@@ -7,6 +7,8 @@ struct siswa{
     Node *next;
 };
 
+Node *head = NULL, *p, *hapus;
+
 Node *head = NULL, *p;
 void awal(){
     if(head == NULL){
